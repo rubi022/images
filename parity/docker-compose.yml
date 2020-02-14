@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
   mainnet:
-    image: reg.openware.work/cryptonode/parity:2.5.13
+    image: parity/parity
     restart: always
     user: root
     command: parity
