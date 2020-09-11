@@ -3,7 +3,9 @@
 ## Start the cryptonode
 
 ```shell
-docker-compose up -Vd *mainnet or testnet*`
+docker-compose up -Vd mainnet
+
+docker-compose up -Vd testnet
 ```
 
 ## Usage
